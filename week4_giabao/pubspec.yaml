@@ -1,0 +1,38 @@
+name: lab4_exercises
+description: "Bai tap Lab 4 Flutter - ListView, GridView, SharedPrefs, Isolates"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icon mặc định (có thể giữ hoặc bỏ)
+  cupertino_icons: ^1.0.6
+
+  # --- CÁC THƯ VIỆN CẦN THÊM CHO LAB 4 ---
+
+  # 1. Dùng cho Bài 3: Lưu trữ dữ liệu cục bộ (Save Name) 
+  shared_preferences: ^2.3.2
+
+  # 2. Dùng cho Bài 3 (Bonus): Format ngày giờ (Display timestamp) 
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linter để kiểm tra lỗi code (khuyên dùng)
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Nếu bạn muốn thêm ảnh thật cho Bài 1 (Avatar) hoặc Bài 2 (Grid), 
+  # hãy bỏ comment phần dưới và tạo thư mục assets tương ứng:
+  # assets:
+  #   - assets/images/
