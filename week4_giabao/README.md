@@ -1,6 +1,6 @@
 # week4_giabao
 
-A new Flutter project.
+vào image_test_demo để xem ảnh demo app chạy
 
 ## Getting Started
 
